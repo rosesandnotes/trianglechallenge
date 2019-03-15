@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function(){
     //Hide Result
     document.getElementById('result').style.display = 'none';
   
-    //Show Result
+    //Show Spinner
     document.getElementById('loading').style.display = 'block';
   
     setTimeout(getTriangleType, 1000);
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function(){
   });
   
   // Get Triangle Type
-  function getTriangleType(e){
+  function getTriangleType(){
     const side1 = document.getElementById('inputSide1');
     const side2 = document.getElementById('inputSide2');
     const side3 = document.getElementById('inputSide3');
